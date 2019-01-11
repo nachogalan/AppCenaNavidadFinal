@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddGuestViewController" customModule="CenaNavidad" customModuleProvider="target">
+            <connections>
+                <outlet property="saveButton" destination="ixJ-VN-GBq" id="2BW-Mq-DqG"/>
+                <outlet property="textField" destination="LQt-uB-bI2" id="i5i-zD-ODr"/>
+                <outlet property="view" destination="ZZk-wq-aLp" id="8Pu-68-sKK"/>
+                <outlet property="viewBack" destination="7NN-XO-xbV" id="Qup-Zn-lJe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ZZk-wq-aLp">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7NN-XO-xbV" userLabel="View Back">
+                    <rect key="frame" x="16" y="67" width="343" height="225"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixJ-VN-GBq">
+                            <rect key="frame" x="143" y="187" width="56" height="30"/>
+                            <state key="normal" title="Guardar"/>
+                            <connections>
+                                <action selector="saveButtonPressed" destination="-1" eventType="touchUpInside" id="0dm-GN-dgk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPu-fk-w6Q">
+                            <rect key="frame" x="9" y="8" width="44" height="30"/>
+                            <state key="normal" title="Cerrar"/>
+                            <connections>
+                                <action selector="closeButtonPressed" destination="-1" eventType="touchUpInside" id="0hW-sh-DHp"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LQt-uB-bI2">
+                            <rect key="frame" x="9" y="90" width="326" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.15918791960000001" blue="0.22161782939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="BPu-fk-w6Q" firstAttribute="leading" secondItem="7NN-XO-xbV" secondAttribute="leading" constant="9" id="2li-re-SYe"/>
+                        <constraint firstItem="ixJ-VN-GBq" firstAttribute="bottom" secondItem="7NN-XO-xbV" secondAttribute="bottomMargin" id="8MH-7H-DSg"/>
+                        <constraint firstItem="LQt-uB-bI2" firstAttribute="top" secondItem="BPu-fk-w6Q" secondAttribute="bottom" constant="52" id="BN6-FU-Swx"/>
+                        <constraint firstItem="LQt-uB-bI2" firstAttribute="leading" secondItem="BPu-fk-w6Q" secondAttribute="leading" id="Edc-0R-BiA"/>
+                        <constraint firstItem="ixJ-VN-GBq" firstAttribute="centerX" secondItem="7NN-XO-xbV" secondAttribute="centerX" id="ccW-9P-kPa"/>
+                        <constraint firstItem="BPu-fk-w6Q" firstAttribute="top" secondItem="7NN-XO-xbV" secondAttribute="topMargin" id="obM-71-Un8"/>
+                        <constraint firstItem="LQt-uB-bI2" firstAttribute="trailing" secondItem="7NN-XO-xbV" secondAttribute="trailingMargin" id="scX-Xn-cG8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7NN-XO-xbV" firstAttribute="top" secondItem="bMU-fF-oyg" secondAttribute="top" constant="47" id="1pk-aU-ctm"/>
+                <constraint firstItem="bMU-fF-oyg" firstAttribute="bottom" secondItem="7NN-XO-xbV" secondAttribute="bottom" constant="375" id="4mT-Ax-wTW"/>
+                <constraint firstItem="7NN-XO-xbV" firstAttribute="leading" secondItem="ZZk-wq-aLp" secondAttribute="leadingMargin" id="VNj-NY-scG"/>
+                <constraint firstItem="7NN-XO-xbV" firstAttribute="trailing" secondItem="ZZk-wq-aLp" secondAttribute="trailingMargin" id="d1u-M8-pNs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="bMU-fF-oyg"/>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

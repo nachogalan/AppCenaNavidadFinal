@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC534A648828771EF6F09E2 /* Pods_CenaNavidad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BC1E1825B9BC60FFA832D8 /* Pods_CenaNavidad.framework */; };
+		4DA7F49821E7982300F18CB4 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F49721E7982300F18CB4 /* Repository.swift */; };
+		4DA7F49A21E7987500F18CB4 /* LocalDinnerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F49921E7987500F18CB4 /* LocalDinnerRepository.swift */; };
+		4DA7F4A221E79F4F00F18CB4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F4A021E79F4F00F18CB4 /* AddViewController.swift */; };
+		4DA7F4A321E79F4F00F18CB4 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA7F4A121E79F4F00F18CB4 /* AddViewController.xib */; };
+		4DA7F4A721E7AE4F00F18CB4 /* InterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F4A521E7AE4F00F18CB4 /* InterViewController.swift */; };
+		4DA7F4A821E7AE4F00F18CB4 /* InterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA7F4A621E7AE4F00F18CB4 /* InterViewController.xib */; };
+		4DA7F4AD21E7B52400F18CB4 /* GuestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F4AB21E7B52400F18CB4 /* GuestsViewController.swift */; };
+		4DA7F4AE21E7B52400F18CB4 /* GuestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA7F4AC21E7B52400F18CB4 /* GuestsViewController.xib */; };
+		4DA7F4B521E7B77E00F18CB4 /* LocalGuestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F4B421E7B77E00F18CB4 /* LocalGuestRepository.swift */; };
+		4DA7F4B921E7BD2B00F18CB4 /* AddGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F4B721E7BD2B00F18CB4 /* AddGuestViewController.swift */; };
+		4DA7F4BA21E7BD2B00F18CB4 /* AddGuestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA7F4B821E7BD2B00F18CB4 /* AddGuestViewController.xib */; };
+		4DA7F4BF21E7C70B00F18CB4 /* GuestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA7F4BD21E7C70B00F18CB4 /* GuestTableViewCell.swift */; };
+		4DA7F4C021E7C70B00F18CB4 /* GuestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA7F4BE21E7C70B00F18CB4 /* GuestTableViewCell.xib */; };
+		4DE1BAFD21E6587D00ABEB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BAFC21E6587D00ABEB6D /* AppDelegate.swift */; };
+		4DE1BB0521E6587D00ABEB6D /* CenaNavidad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BB0321E6587D00ABEB6D /* CenaNavidad.xcdatamodeld */; };
+		4DE1BB0721E6588100ABEB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1BB0621E6588100ABEB6D /* Assets.xcassets */; };
+		4DE1BB0A21E6588100ABEB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1BB0821E6588100ABEB6D /* LaunchScreen.storyboard */; };
+		4DE1BB1821E65A6100ABEB6D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BB1621E65A6100ABEB6D /* MainViewController.swift */; };
+		4DE1BB1921E65A6100ABEB6D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1BB1721E65A6100ABEB6D /* MainViewController.xib */; };
+		4DE1BB1B21E65CA000ABEB6D /* Dinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BB1A21E65CA000ABEB6D /* Dinner.swift */; };
+		4DE1BB1D21E65D4400ABEB6D /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BB1C21E65D4400ABEB6D /* Guest.swift */; };
+		4DE1BB1F21E65E1300ABEB6D /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BB1E21E65E1300ABEB6D /* Dish.swift */; };
+		4DE1BB2321E65F5C00ABEB6D /* DinnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BB2121E65F5C00ABEB6D /* DinnerTableViewCell.swift */; };
+		4DE1BB2421E65F5C00ABEB6D /* DinnerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE1BB2221E65F5C00ABEB6D /* DinnerTableViewCell.xib */; };
+		4DE1BB2721E6664900ABEB6D /* DinnerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BB2621E6664900ABEB6D /* DinnerEntity.swift */; };
+		4DE1BB2921E6686B00ABEB6D /* GuestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1BB2821E6686B00ABEB6D /* GuestEntity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10842CF43C47F2AB6B3BE14C /* Pods-CenaNavidad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenaNavidad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CenaNavidad/Pods-CenaNavidad.debug.xcconfig"; sourceTree = "<group>"; };
+		48BC1E1825B9BC60FFA832D8 /* Pods_CenaNavidad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CenaNavidad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA7F49721E7982300F18CB4 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		4DA7F49921E7987500F18CB4 /* LocalDinnerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDinnerRepository.swift; sourceTree = "<group>"; };
+		4DA7F4A021E79F4F00F18CB4 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = CenaNavidad/ViewControllers/AddViewController.swift; sourceTree = SOURCE_ROOT; };
+		4DA7F4A121E79F4F00F18CB4 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddViewController.xib; path = CenaNavidad/ViewControllers/AddViewController.xib; sourceTree = SOURCE_ROOT; };
+		4DA7F4A521E7AE4F00F18CB4 /* InterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterViewController.swift; sourceTree = "<group>"; };
+		4DA7F4A621E7AE4F00F18CB4 /* InterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InterViewController.xib; sourceTree = "<group>"; };
+		4DA7F4AB21E7B52400F18CB4 /* GuestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestsViewController.swift; sourceTree = "<group>"; };
+		4DA7F4AC21E7B52400F18CB4 /* GuestsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestsViewController.xib; sourceTree = "<group>"; };
+		4DA7F4B421E7B77E00F18CB4 /* LocalGuestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGuestRepository.swift; sourceTree = "<group>"; };
+		4DA7F4B721E7BD2B00F18CB4 /* AddGuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestViewController.swift; sourceTree = "<group>"; };
+		4DA7F4B821E7BD2B00F18CB4 /* AddGuestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddGuestViewController.xib; sourceTree = "<group>"; };
+		4DA7F4BD21E7C70B00F18CB4 /* GuestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestTableViewCell.swift; sourceTree = "<group>"; };
+		4DA7F4BE21E7C70B00F18CB4 /* GuestTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuestTableViewCell.xib; sourceTree = "<group>"; };
+		4DE1BAF921E6587D00ABEB6D /* CenaNavidad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenaNavidad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE1BAFC21E6587D00ABEB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DE1BB0421E6587D00ABEB6D /* CenaNavidad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CenaNavidad.xcdatamodel; sourceTree = "<group>"; };
+		4DE1BB0621E6588100ABEB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE1BB0921E6588100ABEB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DE1BB0B21E6588100ABEB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DE1BB1621E65A6100ABEB6D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4DE1BB1721E65A6100ABEB6D /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4DE1BB1A21E65CA000ABEB6D /* Dinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinner.swift; sourceTree = "<group>"; };
+		4DE1BB1C21E65D4400ABEB6D /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		4DE1BB1E21E65E1300ABEB6D /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		4DE1BB2121E65F5C00ABEB6D /* DinnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerTableViewCell.swift; sourceTree = "<group>"; };
+		4DE1BB2221E65F5C00ABEB6D /* DinnerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DinnerTableViewCell.xib; sourceTree = "<group>"; };
+		4DE1BB2621E6664900ABEB6D /* DinnerEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerEntity.swift; sourceTree = "<group>"; };
+		4DE1BB2821E6686B00ABEB6D /* GuestEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestEntity.swift; sourceTree = "<group>"; };
+		573C0AEA709707BF6B594287 /* Pods-CenaNavidad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenaNavidad.release.xcconfig"; path = "Pods/Target Support Files/Pods-CenaNavidad/Pods-CenaNavidad.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DE1BAF621E6587D00ABEB6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC534A648828771EF6F09E2 /* Pods_CenaNavidad.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DA7F49B21E79D1C00F18CB4 /* AddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7F4A021E79F4F00F18CB4 /* AddViewController.swift */,
+				4DA7F4A121E79F4F00F18CB4 /* AddViewController.xib */,
+			);
+			path = AddViewController;
+			sourceTree = "<group>";
+		};
+		4DA7F4A421E7AE2B00F18CB4 /* InterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7F4A521E7AE4F00F18CB4 /* InterViewController.swift */,
+				4DA7F4A621E7AE4F00F18CB4 /* InterViewController.xib */,
+			);
+			path = InterViewController;
+			sourceTree = "<group>";
+		};
+		4DA7F4AA21E7AF6B00F18CB4 /* GuestsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7F4AB21E7B52400F18CB4 /* GuestsViewController.swift */,
+				4DA7F4AC21E7B52400F18CB4 /* GuestsViewController.xib */,
+			);
+			path = GuestsViewController;
+			sourceTree = "<group>";
+		};
+		4DA7F4AF21E7B5A800F18CB4 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7F4BD21E7C70B00F18CB4 /* GuestTableViewCell.swift */,
+				4DA7F4BE21E7C70B00F18CB4 /* GuestTableViewCell.xib */,
+			);
+			path = Guest;
+			sourceTree = "<group>";
+		};
+		4DA7F4B621E7BD0D00F18CB4 /* AddGuestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7F4B721E7BD2B00F18CB4 /* AddGuestViewController.swift */,
+				4DA7F4B821E7BD2B00F18CB4 /* AddGuestViewController.xib */,
+			);
+			path = AddGuestViewController;
+			sourceTree = "<group>";
+		};
+		4DE1BAF021E6587D00ABEB6D = {
+			isa = PBXGroup;
+			children = (
+				4DE1BAFB21E6587D00ABEB6D /* CenaNavidad */,
+				4DE1BAFA21E6587D00ABEB6D /* Products */,
+				9C09BA1632BE8D4EE70546A1 /* Pods */,
+				8AD6411622A12DAAC5E57DF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DE1BAFA21E6587D00ABEB6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1BAF921E6587D00ABEB6D /* CenaNavidad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DE1BAFB21E6587D00ABEB6D /* CenaNavidad */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1BB2521E6648B00ABEB6D /* Entities */,
+				4DE1BB1421E6594100ABEB6D /* Cells */,
+				4DE1BB1321E6593600ABEB6D /* Models */,
+				4DE1BB1221E6592900ABEB6D /* Repositories */,
+				4DE1BB1121E6591700ABEB6D /* ViewControllers */,
+				4DE1BAFC21E6587D00ABEB6D /* AppDelegate.swift */,
+				4DE1BB0621E6588100ABEB6D /* Assets.xcassets */,
+				4DE1BB0821E6588100ABEB6D /* LaunchScreen.storyboard */,
+				4DE1BB0B21E6588100ABEB6D /* Info.plist */,
+				4DE1BB0321E6587D00ABEB6D /* CenaNavidad.xcdatamodeld */,
+			);
+			path = CenaNavidad;
+			sourceTree = "<group>";
+		};
+		4DE1BB1121E6591700ABEB6D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7F4B621E7BD0D00F18CB4 /* AddGuestViewController */,
+				4DA7F4AA21E7AF6B00F18CB4 /* GuestsViewController */,
+				4DA7F4A421E7AE2B00F18CB4 /* InterViewController */,
+				4DA7F49B21E79D1C00F18CB4 /* AddViewController */,
+				4DE1BB1521E65A2200ABEB6D /* MainViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4DE1BB1221E6592900ABEB6D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7F49721E7982300F18CB4 /* Repository.swift */,
+				4DA7F49921E7987500F18CB4 /* LocalDinnerRepository.swift */,
+				4DA7F4B421E7B77E00F18CB4 /* LocalGuestRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		4DE1BB1321E6593600ABEB6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1BB1A21E65CA000ABEB6D /* Dinner.swift */,
+				4DE1BB1C21E65D4400ABEB6D /* Guest.swift */,
+				4DE1BB1E21E65E1300ABEB6D /* Dish.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DE1BB1421E6594100ABEB6D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4DA7F4AF21E7B5A800F18CB4 /* Guest */,
+				4DE1BB2021E65F4700ABEB6D /* Dinner */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4DE1BB1521E65A2200ABEB6D /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1BB1621E65A6100ABEB6D /* MainViewController.swift */,
+				4DE1BB1721E65A6100ABEB6D /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		4DE1BB2021E65F4700ABEB6D /* Dinner */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1BB2121E65F5C00ABEB6D /* DinnerTableViewCell.swift */,
+				4DE1BB2221E65F5C00ABEB6D /* DinnerTableViewCell.xib */,
+			);
+			path = Dinner;
+			sourceTree = "<group>";
+		};
+		4DE1BB2521E6648B00ABEB6D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4DE1BB2621E6664900ABEB6D /* DinnerEntity.swift */,
+				4DE1BB2821E6686B00ABEB6D /* GuestEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		8AD6411622A12DAAC5E57DF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48BC1E1825B9BC60FFA832D8 /* Pods_CenaNavidad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C09BA1632BE8D4EE70546A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10842CF43C47F2AB6B3BE14C /* Pods-CenaNavidad.debug.xcconfig */,
+				573C0AEA709707BF6B594287 /* Pods-CenaNavidad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DE1BAF821E6587D00ABEB6D /* CenaNavidad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DE1BB0E21E6588100ABEB6D /* Build configuration list for PBXNativeTarget "CenaNavidad" */;
+			buildPhases = (
+				6ED73F106E31BF789E421973 /* [CP] Check Pods Manifest.lock */,
+				4DE1BAF521E6587D00ABEB6D /* Sources */,
+				4DE1BAF621E6587D00ABEB6D /* Frameworks */,
+				4DE1BAF721E6587D00ABEB6D /* Resources */,
+				6BF1E75171A5823D44CC9842 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenaNavidad;
+			productName = CenaNavidad;
+			productReference = 4DE1BAF921E6587D00ABEB6D /* CenaNavidad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DE1BAF121E6587D00ABEB6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "IGNACIO GALAN DE PINA";
+				TargetAttributes = {
+					4DE1BAF821E6587D00ABEB6D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 4DE1BAF421E6587D00ABEB6D /* Build configuration list for PBXProject "CenaNavidad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DE1BAF021E6587D00ABEB6D;
+			productRefGroup = 4DE1BAFA21E6587D00ABEB6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DE1BAF821E6587D00ABEB6D /* CenaNavidad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE1BAF721E6587D00ABEB6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA7F4A321E79F4F00F18CB4 /* AddViewController.xib in Resources */,
+				4DA7F4C021E7C70B00F18CB4 /* GuestTableViewCell.xib in Resources */,
+				4DA7F4BA21E7BD2B00F18CB4 /* AddGuestViewController.xib in Resources */,
+				4DE1BB0A21E6588100ABEB6D /* LaunchScreen.storyboard in Resources */,
+				4DE1BB1921E65A6100ABEB6D /* MainViewController.xib in Resources */,
+				4DA7F4AE21E7B52400F18CB4 /* GuestsViewController.xib in Resources */,
+				4DE1BB0721E6588100ABEB6D /* Assets.xcassets in Resources */,
+				4DE1BB2421E65F5C00ABEB6D /* DinnerTableViewCell.xib in Resources */,
+				4DA7F4A821E7AE4F00F18CB4 /* InterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BF1E75171A5823D44CC9842 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CenaNavidad/Pods-CenaNavidad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CenaNavidad/Pods-CenaNavidad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ED73F106E31BF789E421973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CenaNavidad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DE1BAF521E6587D00ABEB6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE1BB2921E6686B00ABEB6D /* GuestEntity.swift in Sources */,
+				4DA7F4BF21E7C70B00F18CB4 /* GuestTableViewCell.swift in Sources */,
+				4DE1BB2321E65F5C00ABEB6D /* DinnerTableViewCell.swift in Sources */,
+				4DE1BB1B21E65CA000ABEB6D /* Dinner.swift in Sources */,
+				4DE1BB2721E6664900ABEB6D /* DinnerEntity.swift in Sources */,
+				4DE1BB1821E65A6100ABEB6D /* MainViewController.swift in Sources */,
+				4DE1BB0521E6587D00ABEB6D /* CenaNavidad.xcdatamodeld in Sources */,
+				4DE1BB1F21E65E1300ABEB6D /* Dish.swift in Sources */,
+				4DA7F4B521E7B77E00F18CB4 /* LocalGuestRepository.swift in Sources */,
+				4DA7F4A721E7AE4F00F18CB4 /* InterViewController.swift in Sources */,
+				4DA7F49821E7982300F18CB4 /* Repository.swift in Sources */,
+				4DA7F4B921E7BD2B00F18CB4 /* AddGuestViewController.swift in Sources */,
+				4DA7F4AD21E7B52400F18CB4 /* GuestsViewController.swift in Sources */,
+				4DA7F49A21E7987500F18CB4 /* LocalDinnerRepository.swift in Sources */,
+				4DE1BB1D21E65D4400ABEB6D /* Guest.swift in Sources */,
+				4DA7F4A221E79F4F00F18CB4 /* AddViewController.swift in Sources */,
+				4DE1BAFD21E6587D00ABEB6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DE1BB0821E6588100ABEB6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DE1BB0921E6588100ABEB6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DE1BB0C21E6588100ABEB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DE1BB0D21E6588100ABEB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DE1BB0F21E6588100ABEB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10842CF43C47F2AB6B3BE14C /* Pods-CenaNavidad.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF2345VHG6;
+				INFOPLIST_FILE = CenaNavidad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IGP.utad.CenaNavidad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DE1BB1021E6588100ABEB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573C0AEA709707BF6B594287 /* Pods-CenaNavidad.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NF2345VHG6;
+				INFOPLIST_FILE = CenaNavidad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IGP.utad.CenaNavidad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DE1BAF421E6587D00ABEB6D /* Build configuration list for PBXProject "CenaNavidad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE1BB0C21E6588100ABEB6D /* Debug */,
+				4DE1BB0D21E6588100ABEB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DE1BB0E21E6588100ABEB6D /* Build configuration list for PBXNativeTarget "CenaNavidad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE1BB0F21E6588100ABEB6D /* Debug */,
+				4DE1BB1021E6588100ABEB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DE1BB0321E6587D00ABEB6D /* CenaNavidad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DE1BB0421E6587D00ABEB6D /* CenaNavidad.xcdatamodel */,
+			);
+			currentVersion = 4DE1BB0421E6587D00ABEB6D /* CenaNavidad.xcdatamodel */;
+			path = CenaNavidad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DE1BAF121E6587D00ABEB6D /* Project object */;
+}
